@@ -7,6 +7,7 @@
 I build and ship production web applications end-to-end — design systems, interactive UI, databases, authentication, analytics, and deployment. Self-taught, currently open to opportunities.
 
 [![Portfolio](https://img.shields.io/badge/cleopatradelights.com-000?style=for-the-badge&logo=vercel&logoColor=white)](https://cleopatradelights.com)
+[![Dr Dan's Protein](https://img.shields.io/badge/Dr_Dan's_Protein-111?style=for-the-badge&logo=vercel&logoColor=white)](https://dr-dans-protein.vercel.app)
 [![ResumeAI](https://img.shields.io/badge/ResumeAI_Demo-3178C6?style=for-the-badge&logo=openai&logoColor=white)](https://resume-rebuilder-cursor.vercel.app)
 [![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
@@ -40,21 +41,34 @@ Full-stack production website + admin dashboard for a real food trailer business
 
 **Public site:** 58-item menu, custom order form with server validation + email delivery, SEO with JSON-LD, dual-row marquee gallery, Egyptian-inspired design system.
 
-**Admin panel:** Google OAuth login, KPI dashboard with revenue charts, order management with status workflows, customer CRM with lifetime value stats, responsive sidebar navigation. PostgreSQL database via Supabase + Prisma.
+**Admin panel:** Google OAuth login, KPI dashboard with revenue charts, order management with status workflows, customer CRM with lifetime value stats. PostgreSQL via Supabase + Prisma.
 
 `Next.js 16` `TypeScript` `Tailwind v4` `Prisma` `Supabase` `NextAuth` `Recharts` `Framer Motion`
 
 </td>
 <td width="50%">
 
+**[Dr. Dan's Protein](https://dr-dans-protein.vercel.app)** | [repo](https://github.com/loki128/dr-dans-protein)
+
+Premium brand website for a founder-led clean-label protein company (PhD Biologist, firefighter, cancer survivor).
+
+Conversion-focused landing page with scroll-driven animations, AI-generated product photography, trust marquee, product showcase, and waitlist capture.
+
+`Next.js 16` `TypeScript` `Tailwind v4` `shadcn/ui` `Framer Motion`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** | [repo](https://github.com/loki128/resume-rebuilder-cursor)
 
-AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating facts.
-
-Paste a resume and a job description, get a tailored rewrite with match scoring. LLM integration via OpenRouter API, animated match-score visualization, premium dark UI.
+AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating facts. LLM integration via OpenRouter, animated match-score visualization, premium dark UI.
 
 `Next.js 14` `TypeScript` `OpenRouter` `AI/LLM` `Framer Motion`
 
+</td>
+<td width="50%">
 </td>
 </tr>
 </table>
@@ -65,7 +79,7 @@ Paste a resume and a job description, get a tailored rewrite with match scoring.
 
 - **Production experience** — my projects serve real businesses and real users, not just tutorials
 - **Full-stack ownership** — I handle everything from Figma-level design to database schemas to deployment
-- **Two custom design systems** — Egyptian dark theme (public site) and minimal Frost theme (admin dashboard)
+- **Custom design systems** — Egyptian dark theme (Cleopatra), minimal Frost theme (admin dashboard), dark void aesthetic (Dr. Dan's)
 - **Modern stack** — I stay current: Next.js 16 App Router, Tailwind v4, Prisma with driver adapters, Auth.js v5
 - **AI integration** — building with LLM APIs for practical applications, not just wrappers
 
