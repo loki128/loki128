@@ -1,66 +1,75 @@
 <div align="center">
 
-# Hey, I'm Lukita
+# Karim Lukita
 
-**Full-Stack Developer / 18 / Jacksonville, FL**
+**Full-Stack Developer | Jacksonville, FL**
 
-I build and ship production web applications end-to-end -- design systems, dashboards, APIs, databases, deployment.
+I build production web platforms for real businesses — e-commerce systems, admin dashboards, AI-powered tools. 3 deployed client projects, all designed, built, and maintained by me.
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
-[![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
+[![Email](https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
 </div>
 
 ---
 
-### Tech Stack
+### Technical Skills
 
 ```
-Frontend        React 19 / Next.js 16 (App Router) / TypeScript / Tailwind CSS v4
-UI & Motion     Framer Motion 12 / Recharts / TanStack Table / Lucide Icons
-Backend         Next.js API Routes & Server Actions / Node.js / REST APIs
-Database        PostgreSQL (Supabase) / Prisma 7.5 ORM / Connection Pooling
-Auth            NextAuth v5 (Auth.js) / Google OAuth / Role-Based Access
-AI/LLM          OpenRouter API / Prompt Engineering / Document Processing
-Infra           Vercel / Git / GitHub / CI/CD / DNS & Domain Management
+Frontend        React 19 · Next.js 16 (App Router) · TypeScript · Tailwind CSS v4
+UI & Motion     Framer Motion 12 · Recharts · TanStack Table · shadcn/ui · Lucide
+Backend         Next.js API Routes · Server Actions · Node.js · REST APIs
+Database        PostgreSQL (Supabase) · Prisma 7.5 · Connection Pooling
+Auth            NextAuth v5 (Auth.js) · Google OAuth · Role-Based Access Control
+AI/LLM          OpenRouter API · Prompt Engineering · Document Processing
+Infrastructure  Vercel · Git · GitHub · CI/CD · Custom Domains · DNS
 ```
 
 ---
 
-### Featured Projects
+### Portfolio — lukita-portfolio.com
 
 <table>
 <tr>
 <td width="33%">
 
-**[Cleopatra Delights](https://cleopatradelights.com)** | [repo](https://github.com/loki128/cleopatra-delights)
+**[Cleopatra Delights](https://cleopatradelights.com)** — Freelance Client
 
-Full-stack production website + admin dashboard for a real food trailer business.
+Full-stack e-commerce platform and admin dashboard for an Egyptian-inspired food trailer business.
 
-**Public site:** 58-item menu, custom order form with email delivery, SEO with JSON-LD, dual-row marquee gallery, Egyptian-inspired design system.
+- 58-item menu with category filtering and custom order form
+- Zod validation, email delivery via Resend API
+- Admin dashboard: Google OAuth, KPI charts, order management, customer CRM with lifetime value tracking
+- SEO with JSON-LD structured data, Egyptian-inspired design system
 
-**Admin panel:** Google OAuth login, KPI dashboard with revenue charts, order management with status workflows, customer CRM with lifetime value stats.
-
-`Next.js 16` `TypeScript` `Tailwind v4` `Prisma` `Supabase` `NextAuth` `Recharts` `Framer Motion`
+`Next.js 16` `Prisma` `Supabase` `NextAuth v5` `Recharts` `Framer Motion`
 
 </td>
 <td width="33%">
 
-**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** | [repo](https://github.com/loki128/dr-dans-protein)
+**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** — Freelance Client
 
-Brand site for a founder-led clean-label protein company. Conversion-focused landing page with scroll-driven animations, product showcase, and waitlist capture.
+Brand website for a protein supplement company, designed and deployed end-to-end.
+
+- Conversion-focused landing page with scroll-driven animations
+- Product showcase, trust marquee, waitlist capture
+- Responsive across all breakpoints
 
 `Next.js 16` `TypeScript` `Tailwind v4` `shadcn/ui` `Framer Motion`
 
 </td>
 <td width="33%">
 
-**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** | [repo](https://github.com/loki128/resume-rebuilder-cursor)
+**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** — Personal Project
 
-AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating facts. LLM integration via OpenRouter.
+AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating qualifications.
 
-`Next.js 14` `TypeScript` `OpenRouter` `AI/LLM` `Framer Motion`
+- Keyword matching and job description analysis
+- Strict truth mode — enhances without inventing
+- LLM integration via OpenRouter
+
+`Next.js 14` `TypeScript` `OpenRouter` `Tailwind CSS`
 
 </td>
 </tr>
@@ -68,22 +77,22 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 
 ---
 
-### What Sets Me Apart
+### What I Bring
 
-- **Production experience** -- my projects serve real businesses and real users, not tutorials
-- **Full-stack ownership** -- I handle everything from design to database schemas to deployment
-- **Custom design systems** -- Egyptian dark theme (Cleopatra), Frost theme (admin), dark void aesthetic (Dr Dan's)
-- **Modern stack** -- Next.js 16 App Router, Tailwind v4, Prisma with driver adapters, Auth.js v5
-- **AI integration** -- building with LLM APIs for practical applications
+- **Production track record** — every project listed serves real businesses with real users
+- **Full-stack ownership** — I handle design, frontend, backend, database, auth, and deployment
+- **Custom design systems** — Egyptian dark theme, Frost admin theme, dark void aesthetic
+- **Modern tooling** — Next.js 16 App Router, Tailwind v4, Prisma with driver adapters, Auth.js v5
+- **AI integration** — building with LLM APIs for practical, user-facing applications
 
 ---
 
 <div align="center">
 
-**Open to junior dev roles, freelance, and collaborations**
+**Open to opportunities** — junior dev roles, freelance projects, and collaborations
 
-[![Email](https://img.shields.io/badge/Email-lukita@cleopatradelights.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
-[![GitHub](https://img.shields.io/badge/GitHub-loki128-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/loki128)
+[![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=flat-square&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
+[![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Karim_Lukita-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 
 </div>
