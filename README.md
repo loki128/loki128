@@ -6,8 +6,7 @@
 
 I build and ship production web applications end-to-end -- design systems, dashboards, APIs, databases, deployment.
 
-[![Portfolio](https://img.shields.io/badge/cleopatradelights.com-D4AF37?style=for-the-badge&logo=vercel&logoColor=black)](https://cleopatradelights.com)
-[![Dr Dan's Protein](https://img.shields.io/badge/dr--dans--protein.vercel.app-1C1C1C?style=for-the-badge&logo=vercel&logoColor=white)](https://dr-dans-protein.vercel.app)
+[![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 [![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
