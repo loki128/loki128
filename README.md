@@ -4,7 +4,7 @@
 
 **Full-Stack Developer | Jacksonville, FL**
 
-I build production web platforms for real businesses — e-commerce systems, admin dashboards, AI-powered tools. 3 deployed client projects, all designed, built, and maintained by me.
+I build production web platforms for real businesses — e-commerce systems, admin dashboards, AI-powered tools, and the security infrastructure to protect them. 3 deployed client projects, all designed, built, and maintained by me.
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
@@ -18,10 +18,10 @@ I build production web platforms for real businesses — e-commerce systems, adm
 
 ```
 Frontend        React 19 · Next.js 16 (App Router) · TypeScript · Tailwind CSS v4
-UI & Motion     Framer Motion 12 · Recharts · TanStack Table · shadcn/ui · Lucide
+UI & Motion     Framer Motion 12 · Three.js · React Three Fiber · shadcn/ui · Recharts
 Backend         Next.js API Routes · Server Actions · Node.js · REST APIs
 Database        PostgreSQL (Supabase) · Prisma 7.5 · Connection Pooling
-Auth            NextAuth v5 (Auth.js) · Google OAuth · Role-Based Access Control
+Auth & Security NextAuth v5 · Google OAuth · RBAC · Cloudflare Turnstile · Rate Limiting
 AI/LLM          OpenRouter API · Prompt Engineering · Document Processing
 Infrastructure  Vercel · Git · GitHub · CI/CD · Custom Domains · DNS
 ```
@@ -39,11 +39,11 @@ Infrastructure  Vercel · Git · GitHub · CI/CD · Custom Domains · DNS
 Full-stack e-commerce platform and admin dashboard for an Egyptian-inspired food trailer business.
 
 - 58-item menu with category filtering and custom order form
-- Zod validation, email delivery via Resend API
 - Admin dashboard: Google OAuth, KPI charts, order management, customer CRM with lifetime value tracking
+- Multi-layer anti-spam: Cloudflare Turnstile, per-IP rate limiting, honeypot fields, timing analysis, content-based spam detection
 - SEO with JSON-LD structured data, Egyptian-inspired design system
 
-`Next.js 16` `Prisma` `Supabase` `NextAuth v5` `Recharts` `Framer Motion`
+`Next.js 16` `Prisma` `Supabase` `NextAuth v5` `Cloudflare Turnstile` `Zod`
 
 </td>
 <td width="33%">
@@ -80,7 +80,9 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 ### What I Bring
 
 - **Production track record** — every project listed serves real businesses with real users
-- **Full-stack ownership** — I handle design, frontend, backend, database, auth, and deployment
+- **Full-stack ownership** — I handle design, frontend, backend, database, auth, deployment, and security
+- **Web security** — Cloudflare Turnstile CAPTCHA, per-IP rate limiting, honeypot spam traps, timing-based bot detection, content analysis, disposable email blocking. Built and battle-tested against a 43k+ spam attack on a live production site
+- **3D & interactive** — Three.js, React Three Fiber, WebGL scene management, spring physics animations, custom cursor systems
 - **Custom design systems** — Egyptian dark theme, Frost admin theme, dark void aesthetic
 - **Modern tooling** — Next.js 16 App Router, Tailwind v4, Prisma with driver adapters, Auth.js v5
 - **AI integration** — building with LLM APIs for practical, user-facing applications
