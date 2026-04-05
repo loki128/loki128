@@ -4,7 +4,7 @@
 
 **Full-Stack Developer | Jacksonville, FL**
 
-I build production web platforms for real businesses — e-commerce systems, AI-powered SaaS products, admin dashboards, and the security infrastructure to protect them. 4 deployed projects, all designed, built, and maintained by me.
+I build production web platforms for real businesses — e-commerce systems, AI-powered SaaS products, admin dashboards, and the security infrastructure to protect them. 6+ shipped projects — web platforms, AI systems, and autonomous agents — all designed, built, and maintained by me.
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
@@ -19,10 +19,10 @@ I build production web platforms for real businesses — e-commerce systems, AI-
 ```
 Frontend        React 19 · Next.js 16 (App Router) · TypeScript · Tailwind CSS v4
 UI & Motion     Framer Motion 12 · Three.js · React Three Fiber · shadcn/ui · Recharts
-Backend         Next.js API Routes · Server Actions · Node.js · REST APIs · Stripe Connect
-Database        PostgreSQL (Supabase) · Prisma 7.5 · Connection Pooling · Row-Level Security
+Backend         Next.js API Routes · Server Actions · Node.js · REST APIs · Stripe Connect · Claude Agent SDK · Docker
+Database        PostgreSQL (Supabase) · Prisma 7.5 · Connection Pooling · Row-Level Security · SQLite · Qdrant (Vector DB)
 Auth & Security NextAuth v5 · Google OAuth · RBAC · Cloudflare Turnstile · Rate Limiting
-AI/LLM          OpenRouter API · Claude · Prompt Engineering · AI Image Generation (fal.ai)
+AI/LLM          OpenRouter API · Claude · Prompt Engineering · AI Image Generation (fal.ai) · fal.ai · Autonomous Agents
 Infrastructure  Vercel · Git · GitHub · CI/CD · Custom Domains · DNS
 ```
 
@@ -93,6 +93,43 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 </tr>
 </table>
 
+### Engineering Projects
+
+<table>
+<tr>
+<td width="50%">
+
+**Throne** — Multi-Agent AI Orchestration (14,000+ lines)
+
+Self-evolving multi-agent orchestration system with genetic algorithm prompt evolution, swarm immune system, trust contagion networks, and constitutional evolution. 47 source files, 7 SQLite tables, 53+ tests.
+
+- TAQL quality assessment + democratic voting + trust tiers
+- Prompt DNA: genetic algorithm evolving prompts using fitness scoring
+- Swarm Immune System: 5-rule anomaly detection + quarantine
+- Trust Contagion: social graph propagation with toxic pair detection
+- HNSW vector search (pure JS, no external dependencies)
+
+`Node.js` `SQLite` `better-sqlite3` `Zod` `Pino` `EventEmitter3`
+
+</td>
+<td width="50%">
+
+**Phantom** — Autonomous AI Co-Worker (27,000+ lines)
+
+Self-evolving autonomous AI agent with its own Docker environment, vector memory, and MCP server. 822 tests, multi-channel (Slack/Telegram/Discord), 6-step self-evolution pipeline.
+
+- Claude Agent SDK (Opus 4.6) with persistent vector memory (Qdrant)
+- Self-evolution engine: rewrites its own config after every session
+- Builds dashboards, APIs, tools — everything gets a public URL
+- Multi-channel: Slack, Telegram, Discord, Email, Webhooks
+- MCP server for integration with other AI tools
+
+`Bun` `TypeScript` `Claude Agent SDK` `Qdrant` `Docker` `Ollama`
+
+</td>
+</tr>
+</table>
+
 ---
 
 ### What I Bring
@@ -105,6 +142,7 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 - **3D & interactive** — Three.js, React Three Fiber, WebGL scene management, spring physics animations
 - **Custom design systems** — Egyptian dark theme, Frost admin theme, pink glassmorphism, dark void aesthetic
 - **Modern tooling** — Next.js 16 App Router, Tailwind v4, Prisma with driver adapters, Auth.js v5
+- **Autonomous AI systems** — built a 27k-line self-evolving AI co-worker and a 14k-line multi-agent orchestration framework with genetic algorithms, immune systems, and trust networks
 
 ---
 
