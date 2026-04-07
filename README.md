@@ -2,15 +2,23 @@
 
 # Karim Lukita
 
-**Full-Stack Developer & AI Systems Engineer | Jacksonville, FL**
+**One-Person Product Studio | Jacksonville, FL**
 
-I build production web platforms and AI systems for real businesses — e-commerce, SaaS products, trading infrastructure, multi-agent orchestration, and the security architecture to protect them. 7+ shipped projects — all designed, built, and maintained by me.
+I turn ideas into shipped products — SaaS platforms, trading bots, AI pipelines, games. Design to deployment, solo. 10+ projects shipped across web, fintech, AI, and gaming.
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 [![Email](https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
 </div>
+
+---
+
+### What I Do
+
+I'm a product builder who ships fast. I use AI-assisted development to move at the speed of a small team — but every decision, architecture choice, and design call is mine. I don't just write code. I scope the product, design the UI, build the backend, handle payments, deploy it, and maintain it.
+
+**If you need an MVP built in a week, not a quarter — that's what I do.**
 
 ---
 
@@ -29,7 +37,7 @@ Infrastructure  Vercel · Git · GitHub · CI/CD · Discord.py · asyncio · Cus
 
 ---
 
-### Portfolio — lukita-portfolio.com
+### Shipped Products
 
 <table>
 <tr>
@@ -37,13 +45,13 @@ Infrastructure  Vercel · Git · GitHub · CI/CD · Discord.py · asyncio · Cus
 
 **[MixedRight](https://mixedright.vercel.app)** — AI Recipe SaaS (Founder)
 
-Full-stack AI-powered recipe platform with marketplace, social features, and Stripe payments. Users paste any recipe or URL and the AI formats, enhances, and generates food photography.
+Full-stack AI-powered recipe platform with marketplace, social features, and Stripe payments.
 
-- AI recipe formatter with 9-strategy URL scraper (YouTube transcripts, TikTok, Instagram, Reddit, blogs)
+- AI recipe formatter with 9-strategy URL scraper (YouTube, TikTok, Instagram, Reddit, blogs)
 - AI-generated food photography per recipe and collection cover (fal.ai FLUX)
-- Stripe Connect marketplace — sellers list recipes, buyers purchase, platform splits payments
+- Stripe Connect marketplace — sellers list, buyers purchase, platform splits payments
 - Social layer: follows, saves, comments, collections with AI covers
-- Tiered subscription model (Free / Baker $10 / Seller $20) with atomic rate limiting
+- Tiered subscription (Free / Baker $10 / Seller $20) with atomic rate limiting
 - 30+ API routes with CSRF protection, rate limiting, input sanitization, and RLS
 
 `Next.js 16` `TypeScript` `Supabase` `Stripe Connect` `OpenRouter` `fal.ai` `Framer Motion` `Tailwind v4`
@@ -51,13 +59,13 @@ Full-stack AI-powered recipe platform with marketplace, social features, and Str
 </td>
 <td width="50%">
 
-**[Cleopatra Delights](https://cleopatradelights.com)** — Freelance Client
+**[Cleopatra Delights](https://cleopatradelights.com)** — Client Project
 
 Full-stack e-commerce platform and admin dashboard for an Egyptian-inspired food trailer business.
 
 - 58-item menu with category filtering and custom order form
 - Admin dashboard: Google OAuth, KPI charts, order management, customer CRM with lifetime value tracking
-- Multi-layer anti-spam: Cloudflare Turnstile, per-IP rate limiting, honeypot fields, timing analysis, content-based spam detection
+- Multi-layer anti-spam: Cloudflare Turnstile, per-IP rate limiting, honeypot fields, timing analysis
 - SEO with JSON-LD structured data, Egyptian-inspired design system
 
 `Next.js 16` `Prisma` `Supabase` `NextAuth v5` `Cloudflare Turnstile` `Zod`
@@ -67,7 +75,7 @@ Full-stack e-commerce platform and admin dashboard for an Egyptian-inspired food
 <tr>
 <td width="50%">
 
-**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** — Freelance Client
+**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** — Client Project
 
 Brand website for a protein supplement company, designed and deployed end-to-end.
 
@@ -80,7 +88,7 @@ Brand website for a protein supplement company, designed and deployed end-to-end
 </td>
 <td width="50%">
 
-**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** — Personal Project
+**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** — Tool
 
 AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating qualifications.
 
@@ -94,7 +102,7 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 </tr>
 </table>
 
-### Engineering Projects
+### Engineering Systems
 
 <table>
 <tr>
@@ -102,15 +110,15 @@ AI-powered resume optimizer that rewrites resumes to match job descriptions with
 
 **ASGARD** — AI Trading Agent (16,000+ lines)
 
-Production trading system with a Discord interface that scans prediction markets, runs multi-LLM analysis, and executes real-money trades on Polymarket. Built from scratch — trading engine, CLI terminal, and Discord bot.
+Production trading system with Discord interface that scans prediction markets, runs multi-LLM analysis, and executes real-money trades on Polymarket.
 
-- **Multi-LLM pipeline**: local Ollama (qwen2.5 7b) pre-filters markets before Claude deep analysis — cost optimization pattern used by production AI companies
-- **5-hook intelligence layer**: market classification, query optimization, news relevance scoring (0-10), VRDM gap tracking, cross-session HNSW memory recall
-- **Risk management suite**: circuit breaker, position sizer, stop loss, take profit, volatility gate
-- **Live trading**: real money on Polymarket via CLOB API with $50 safety cap, confirmation flow, 30s timeout
-- **Security audited**: AI agents audited the codebase, found 5 critical vulns (SSRF, race conditions, permission escalation) — all patched
-- **MIMIR memory**: episodic + semantic memory with temporal supersession — the bot remembers previous scans and evolves its analysis
-- 9 Discord slash commands, 4-tier RBAC, per-user portfolios, Firecrawl web scraping, fighter stats enrichment
+- **Multi-LLM pipeline**: local Ollama pre-filters before Claude deep analysis — production cost optimization
+- **5-hook intelligence layer**: market classification, query optimization, news scoring, gap tracking, HNSW memory recall
+- **Risk management**: circuit breaker, position sizer, stop loss, take profit, volatility gate
+- **Live trading**: real money on Polymarket via CLOB API with safety cap, confirmation flow, 30s timeout
+- **Security audited**: AI agents found 5 critical vulns (SSRF, race conditions, permission escalation) — all patched
+- **MIMIR memory**: episodic + semantic memory with temporal supersession
+- 9 slash commands, 4-tier RBAC, per-user portfolios, web scraping, fighter stats enrichment
 
 `Python` `asyncio` `Discord.py` `Claude API` `Ollama` `Tavily` `Firecrawl` `SQLite` `Polymarket CLOB`
 
@@ -119,7 +127,7 @@ Production trading system with a Discord interface that scans prediction markets
 
 **Throne** — Multi-Agent AI Orchestration (14,000+ lines)
 
-Self-evolving multi-agent orchestration system with genetic algorithm prompt evolution, swarm immune system, trust contagion networks, and constitutional evolution. 47 source files, 7 SQLite tables, 53+ tests.
+Self-evolving multi-agent system with genetic algorithm prompt evolution, swarm immune system, trust contagion networks, and constitutional evolution.
 
 - TAQL quality assessment + democratic voting + trust tiers
 - Prompt DNA: genetic algorithm evolving prompts using fitness scoring
@@ -132,28 +140,60 @@ Self-evolving multi-agent orchestration system with genetic algorithm prompt evo
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**Sword Factory** — Roblox Game
+
+Custom game with hand-built physics and VFX systems — no marketplace assets.
+
+- Custom MathVector system, Perlin noise terrain, Bezier curve animations
+- Spring physics impact system, trail VFX engine
+- Hybrid animation track system, modern UI framework
+
+`Luau` `Roblox Studio` `Custom Physics` `Custom VFX`
+
+</td>
+<td width="50%">
+
+**LARPKit** — Dev Tool
+
+Fake company generator for testing and prototyping. 6 fully functional tabs.
+
+`React` `TypeScript` `Tailwind CSS`
+
+</td>
+</tr>
 </table>
 
 ---
 
-### What I Bring
+### How I Work
 
-- **Production track record** — every project listed serves real businesses with real users or trades real money
-- **Full-stack ownership** — I handle design, frontend, backend, database, auth, deployment, and security
-- **Trading systems** — built a 16K-line trading agent with multi-LLM pipelines, risk management, and live execution on prediction markets
-- **SaaS architecture** — subscription billing, tiered rate limiting, marketplace payments, atomic RPCs, row-level security
-- **Web security** — Cloudflare Turnstile CAPTCHA, per-IP rate limiting, honeypot spam traps, timing-based bot detection, content analysis, disposable email blocking. Built and battle-tested against a 43k+ spam attack on a live production site
-- **AI integration** — multi-LLM cost optimization (local pre-filter + cloud deep analysis), AI-generated imagery, recipe formatting, resume optimization
-- **AI orchestration** — built two separate orchestration systems totaling 30K+ lines: genetic algorithms, immune systems, trust networks, episodic memory
-- **3D & interactive** — Three.js, React Three Fiber, WebGL scene management, spring physics animations
-- **Custom design systems** — Egyptian dark theme, Frost admin theme, pink glassmorphism, dark void aesthetic
-- **Modern tooling** — Next.js 16 App Router, Tailwind v4, Prisma, Auth.js v5, Python asyncio, Discord.py
+I use AI agents as force multipliers — not crutches. Every product decision, architecture choice, and design direction is mine. The AI handles execution speed. The result: solo output that matches a small team, with the coherence of a single vision.
+
+**What that means for clients:**
+- MVP in days, not months
+- One person owns the entire stack — no coordination overhead
+- I ship what I promise, and it works in production
+
+---
+
+### Services
+
+| What | Deliverable | Range |
+|------|-------------|-------|
+| **SaaS MVP** | Full product — auth, payments, deploy | $5,000 – $15,000 |
+| **Trading Bot / AI Pipeline** | Custom bot with live execution | $3,000 – $25,000 |
+| **Business Website** | Design + build + deploy | $1,500 – $3,000 |
+| **Discord/Telegram Bot** | AI-powered with custom pipeline | $3,000 – $8,000 |
+| **Retainer** | AI builder on call | $3,000 – $5,000/mo |
 
 ---
 
 <div align="center">
 
-**Open to opportunities** — junior dev roles, freelance projects, and collaborations
+**Open for projects** — MVPs, trading systems, AI integrations, and anything that ships
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=flat-square&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
 [![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
