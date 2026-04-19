@@ -2,165 +2,124 @@
 
 # Karim Lukita
 
-**One-Person Product Studio | Jacksonville, FL**
+**AI-agentic developer · 19 · Jacksonville, FL**
 
-I turn ideas into shipped products — SaaS platforms, trading bots, AI pipelines, games. Design to deployment, solo. 10+ projects shipped across web, fintech, AI, and gaming.
+I pilot AI agents to ship real products in days, not quarters.
 
-[![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=for-the-badge&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
+Studying AI in college. Building production systems on the side. Already shipped what most teams take a year to finish.
+
+[![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://lukita-portfolio.com)
+[![Lukita Dev Agency](https://img.shields.io/badge/Call_Nathan-%28904%29_541--8192-00C853?style=for-the-badge&logo=phone&logoColor=white)](tel:+19045418192)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
-[![Email](https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
 </div>
 
 ---
 
-### What I Do
+### Why "AI-agentic" is different from "using AI"
 
-I'm a product builder who ships fast. I use AI-assisted development to move at the speed of a small team — but every decision, architecture choice, and design call is mine. I don't just write code. I scope the product, design the UI, build the backend, handle payments, deploy it, and maintain it.
+Most people use AI to write code. I architect systems where the AI is the pilot and I'm air traffic control — orchestrating agents, reasoning chains, and feedback loops that do real work at scale.
 
-**If you need an MVP built in a week, not a quarter — that's what I do.**
-
----
-
-### Technical Skills
-
-```
-Frontend        React 19 · Next.js 16 (App Router) · TypeScript · Tailwind CSS v4
-UI & Motion     Framer Motion 12 · Three.js · React Three Fiber · shadcn/ui · Recharts
-Backend         Next.js API Routes · Server Actions · Node.js · Python · REST APIs · Stripe Connect
-Database        PostgreSQL (Supabase) · Prisma 7.5 · SQLite · Connection Pooling · Row-Level Security
-Auth & Security NextAuth v5 · Google OAuth · RBAC · Cloudflare Turnstile · Rate Limiting · SSRF Protection
-AI/LLM          Claude API · OpenRouter · Ollama (local LLM) · Multi-LLM Pipelines · Prompt Engineering · fal.ai
-Trading         Polymarket CLOB API · Orderbook Analysis · Risk Management · Position Sizing · Whale Detection
-Infrastructure  Vercel · Git · GitHub · CI/CD · Discord.py · asyncio · Custom Domains · DNS
-```
+Every architecture decision, edge case, and product call is still mine. The AI compounds execution speed. The result: **a 19-year-old solo dev matching the output of a 4-person team**.
 
 ---
 
-### Shipped Products
+### Flagship — Lukita Dev Agency
+
+**AI phone receptionists for dental practices. Live product, live clients, live money.**
+
+- **Nathan** — production Vapi voice agent answering calls at **(904) 541-8192** right now. Call it. He'll book an appointment, route emergencies, and hand off insurance questions to a human.
+- **Full stack I built solo**: Next.js landing pages → Stripe checkout (live mode) → Supabase webhooks → Vapi provisioning edge function that clones Nathan per-client and buys a real phone number in ~10 seconds → Telegram one-tap approvals
+- **7.5k-word TOS + clickwrap gate** red-teamed by 3 parallel legal-advisor AI agents (graded A− / B+ / A−)
+- **50-slug personalized landing page engine** at `/for/[slug]` generating unique pitches from entity-extracted prospect data
+- **Outreach infra**: Smartlead warmup on dedicated domain, Resend transactional, pg_cron scheduled drops, infra-health-check daily email
+
+Site: **[lukita-portfolio.com](https://lukita-portfolio.com)** · Demo line: **(904) 541-8192**
+
+---
+
+### Shipped products
 
 <table>
 <tr>
 <td width="50%">
 
-**[MixedRight](https://mixedright.vercel.app)** — AI Recipe SaaS (Founder)
+**[Cleopatra Delights](https://cleopatradelights.com)** — Production e-commerce
 
-Full-stack AI-powered recipe platform with marketplace, social features, and Stripe payments.
+Full-stack platform for an Egyptian-inspired bakery business. 58-item menu, admin dashboard with KPI analytics, customer CRM with lifetime-value tracking, 6-layer anti-spam (Turnstile + rate limiting + honeypot + timing analysis), SEO with JSON-LD structured data.
 
-- AI recipe formatter with 9-strategy URL scraper (YouTube, TikTok, Instagram, Reddit, blogs)
-- AI-generated food photography per recipe and collection cover (fal.ai FLUX)
-- Stripe Connect marketplace — sellers list, buyers purchase, platform splits payments
-- Social layer: follows, saves, comments, collections with AI covers
-- Tiered subscription (Free / Baker $10 / Seller $20) with atomic rate limiting
-- 30+ API routes with CSRF protection, rate limiting, input sanitization, and RLS
-
-`Next.js 16` `TypeScript` `Supabase` `Stripe Connect` `OpenRouter` `fal.ai` `Framer Motion` `Tailwind v4`
+`Next.js 16` · `Prisma` · `Supabase` · `NextAuth v5` · `Cloudflare Turnstile`
 
 </td>
 <td width="50%">
 
-**[Cleopatra Delights](https://cleopatradelights.com)** — Client Project
+**[MixedRight](https://mixedright.vercel.app)** — AI Recipe SaaS
 
-Full-stack e-commerce platform and admin dashboard for an Egyptian-inspired food trailer business.
+9-strategy URL scraper (YouTube / TikTok / Instagram / Reddit / blogs), AI-generated food photography via fal.ai FLUX, Stripe Connect marketplace with atomic rate limiting, tiered subscriptions, 30+ hardened API routes.
 
-- 58-item menu with category filtering and custom order form
-- Admin dashboard: Google OAuth, KPI charts, order management, customer CRM with lifetime value tracking
-- Multi-layer anti-spam: Cloudflare Turnstile, per-IP rate limiting, honeypot fields, timing analysis
-- SEO with JSON-LD structured data, Egyptian-inspired design system
-
-`Next.js 16` `Prisma` `Supabase` `NextAuth v5` `Cloudflare Turnstile` `Zod`
+`Next.js 16` · `TypeScript` · `Supabase` · `Stripe Connect` · `OpenRouter` · `fal.ai`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** — Client Project
+**[Dr Dan's No BS Protein](https://dr-dans-protein.vercel.app)** — Brand site, shipped in a week
 
-Brand website for a protein supplement company, designed and deployed end-to-end.
+Conversion-focused landing with scroll-driven motion, product showcase, waitlist capture. Client went from idea to live site in 7 days.
 
-- Conversion-focused landing page with scroll-driven animations
-- Product showcase, trust marquee, waitlist capture
-- Responsive across all breakpoints
-
-`Next.js 16` `TypeScript` `Tailwind v4` `shadcn/ui` `Framer Motion`
+`Next.js 16` · `Tailwind v4` · `shadcn/ui` · `Framer Motion`
 
 </td>
 <td width="50%">
 
-**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** — Tool
+**[ResumeAI](https://resume-rebuilder-cursor.vercel.app)** — Strict-truth resume rewriter
 
-AI-powered resume optimizer that rewrites resumes to match job descriptions without fabricating qualifications.
+AI optimizer that rewrites resumes to match job descriptions without fabricating qualifications. Multi-LLM via OpenRouter, real-time streaming, keyword-match scoring.
 
-- Keyword matching and job description analysis
-- Strict truth mode — enhances without inventing
-- LLM integration via OpenRouter
-
-`Next.js 14` `TypeScript` `OpenRouter` `Tailwind CSS`
+`Next.js 14` · `OpenRouter` · `Tailwind CSS`
 
 </td>
 </tr>
 </table>
 
-### Engineering Systems
+---
+
+### Engineering depth
 
 <table>
 <tr>
 <td width="50%">
 
-**ASGARD** — AI Trading Agent (16,000+ lines)
+**[ASGARD](https://github.com/loki128/asgard)** — Autonomous AI trading agent
 
-Production trading system with Discord interface that scans prediction markets, runs multi-LLM analysis, and executes real-money trades on Polymarket.
+**16,000+ lines. Real money on Polymarket.**
 
-- **Multi-LLM pipeline**: local Ollama pre-filters before Claude deep analysis — production cost optimization
-- **5-hook intelligence layer**: market classification, query optimization, news scoring, gap tracking, HNSW memory recall
-- **Risk management**: circuit breaker, position sizer, stop loss, take profit, volatility gate
-- **Live trading**: real money on Polymarket via CLOB API with safety cap, confirmation flow, 30s timeout
-- **Security audited**: AI agents found 5 critical vulns (SSRF, race conditions, permission escalation) — all patched
-- **MIMIR memory**: episodic + semantic memory with temporal supersession
-- 9 slash commands, 4-tier RBAC, per-user portfolios, web scraping, fighter stats enrichment
+- Multi-LLM pipeline: local Ollama pre-filter → Claude deep analysis (cost-optimized)
+- 5-hook intelligence layer: market classification, query optimization, news scoring, gap tracking, HNSW memory recall
+- 5-layer risk management: circuit breaker, position sizing, stop-loss, take-profit, volatility gate
+- MIMIR episodic + semantic memory with temporal supersession
+- AI agents found 5 critical vulns during self-audit (SSRF, race conditions, permission escalation) — all patched
+- 9 slash commands, 4-tier RBAC, per-user portfolios
 
-`Python` `asyncio` `Discord.py` `Claude API` `Ollama` `Tavily` `Firecrawl` `SQLite` `Polymarket CLOB`
+`Python` · `asyncio` · `Discord.py` · `Claude API` · `Ollama` · `Polymarket CLOB`
 
 </td>
 <td width="50%">
 
-**Throne** — Multi-Agent AI Orchestration (14,000+ lines)
+**[Throne](https://github.com/loki128/throne-showcase)** — Self-evolving multi-agent orchestration
 
-Self-evolving multi-agent system with genetic algorithm prompt evolution, swarm immune system, trust contagion networks, and constitutional evolution.
+**14,000+ lines. Architecture showcase (source private).**
 
 - TAQL quality assessment + democratic voting + trust tiers
-- Prompt DNA: genetic algorithm evolving prompts using fitness scoring
+- Genetic algorithm prompt evolution with fitness scoring
 - Swarm Immune System: 5-rule anomaly detection + quarantine
-- Trust Contagion: social graph propagation with toxic pair detection
-- HNSW vector search (pure JS, no external dependencies)
+- Trust Contagion: social graph propagation with toxic-pair detection
+- HNSW vector search, pure JS, zero external deps
 - 50+ MCP tools exposed via Model Context Protocol server
 
-`Node.js` `SQLite` `better-sqlite3` `Zod` `Pino` `EventEmitter3`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Sword Factory** — Roblox Game
-
-Custom game with hand-built physics and VFX systems — no marketplace assets.
-
-- Custom MathVector system, Perlin noise terrain, Bezier curve animations
-- Spring physics impact system, trail VFX engine
-- Hybrid animation track system, modern UI framework
-
-`Luau` `Roblox Studio` `Custom Physics` `Custom VFX`
-
-</td>
-<td width="50%">
-
-**LARPKit** — Dev Tool
-
-Fake company generator for testing and prototyping. 6 fully functional tabs.
-
-`React` `TypeScript` `Tailwind CSS`
+`Node.js` · `SQLite` · `better-sqlite3` · `MCP`
 
 </td>
 </tr>
@@ -168,35 +127,39 @@ Fake company generator for testing and prototyping. 6 fully functional tabs.
 
 ---
 
-### How I Work
+### Stack
 
-I use AI agents as force multipliers — not crutches. Every product decision, architecture choice, and design direction is mine. The AI handles execution speed. The result: solo output that matches a small team, with the coherence of a single vision.
-
-**What that means for clients:**
-- MVP in days, not months
-- One person owns the entire stack — no coordination overhead
-- I ship what I promise, and it works in production
+```
+Frontend        Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Framer Motion · shadcn/ui
+Backend         Next.js API · Server Actions · Node.js · Python · Stripe Connect · Supabase Edge Functions
+Database        Postgres (Supabase) · Prisma · pg_cron · Row-Level Security · HNSW vector search
+AI / Agentic    Claude API · Vapi · ElevenLabs · HeyGen · OpenRouter · Ollama · fal.ai · MCP protocol
+Infra           Vercel · Cloudflare · Resend · Smartlead · Telegram bots · GitHub Actions
+Trading         Polymarket CLOB API · orderbook analysis · risk layers · whale detection
+```
 
 ---
 
-### Services
+### How I work
 
-| What | Deliverable | Range |
-|------|-------------|-------|
-| **SaaS MVP** | Full product — auth, payments, deploy | $5,000 – $15,000 |
-| **Trading Bot / AI Pipeline** | Custom bot with live execution | $3,000 – $25,000 |
-| **Business Website** | Design + build + deploy | $1,500 – $3,000 |
-| **Discord/Telegram Bot** | AI-powered with custom pipeline | $3,000 – $8,000 |
-| **Retainer** | AI builder on call | $3,000 – $5,000/mo |
+I use AI agents as force multipliers, not crutches. I pilot a fleet of specialized agents (architect, security reviewer, QA, deploy-bot) through an orchestration layer I built myself. Every product decision is mine — the AI handles execution speed.
+
+**What that means if you hire me:**
+
+- MVP in days, not months
+- One person owns the entire stack — no coordination overhead
+- I ship what I promise, in production, with security baked in
+
+Currently studying AI in college · Open for select freelance and full-time roles.
 
 ---
 
 <div align="center">
 
-**Open for projects** — MVPs, trading systems, AI integrations, and anything that ships
+**Portfolio → [lukita-portfolio.com](https://lukita-portfolio.com)** · **Call Nathan → (904) 541-8192**
 
-[![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-D4AF37?style=flat-square&logo=googlechrome&logoColor=black)](https://lukita-portfolio.com)
+[![LinkedIn](https://img.shields.io/badge/Karim_Lukita-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 [![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Karim_Lukita-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
+[![GitHub followers](https://img.shields.io/github/followers/loki128?style=flat-square&logo=github&color=0A0A0A)](https://github.com/loki128)
 
 </div>
