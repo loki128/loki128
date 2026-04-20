@@ -2,14 +2,14 @@
 
 # Karim Lukita
 
-**AI-agentic developer · 19 · Jacksonville, FL**
+**AI-agentic developer · 19 · Jacksonville, FL · FSCJ**
 
 I pilot AI agents to ship real products in days, not quarters.
 
 Studying AI in college. Building production systems on the side. Already shipped what most teams take a year to finish.
 
 [![Portfolio](https://img.shields.io/badge/lukita--portfolio.com-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://lukita-portfolio.com)
-[![Lukita Dev Agency](https://img.shields.io/badge/Call_Nathan-%28904%29_541--8192-00C853?style=for-the-badge&logo=phone&logoColor=white)](tel:+19045418192)
+[![Call Nathan](https://img.shields.io/badge/Call_Nathan-%28904%29_541--8192-00C853?style=for-the-badge&logo=phone&logoColor=white)](tel:+19045418192)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
 
@@ -25,17 +25,98 @@ Every architecture decision, edge case, and product call is still mine. The AI c
 
 ---
 
-### Flagship — Lukita Dev Agency
+## Flagship — Lukita Dev Agency
 
 **AI phone receptionists for dental practices. Live product, live clients, live money.**
 
-- **Nathan** — production Vapi voice agent answering calls at **(904) 541-8192** right now. Call it. He'll book an appointment, route emergencies, and hand off insurance questions to a human.
-- **Full stack I built solo**: Next.js landing pages → Stripe checkout (live mode) → Supabase webhooks → Vapi provisioning edge function that clones Nathan per-client and buys a real phone number in ~10 seconds → Telegram one-tap approvals
-- **7.5k-word TOS + clickwrap gate** red-teamed by 3 parallel legal-advisor AI agents (graded A− / B+ / A−)
-- **50-slug personalized landing page engine** at `/for/[slug]` generating unique pitches from entity-extracted prospect data
-- **Outreach infra**: Smartlead warmup on dedicated domain, Resend transactional, pg_cron scheduled drops, infra-health-check daily email
+### Meet Nathan
 
-Site: **[lukita-portfolio.com](https://lukita-portfolio.com)** · Demo line: **(904) 541-8192**
+Nathan is a production voice agent that answers phones for dental practices 24/7. He's not a chatbot. He's not a decision tree. He's a Claude-powered AI with a dental-specific system prompt that handles real patient calls.
+
+**Call him right now: [(904) 541-8192](tel:+19045418192)**
+
+What Nathan does on a call:
+
+- **Picks up on ring 1.** No "please hold." No voicemail. No missed opportunity.
+- **Books new patients.** Asks for name, DOB, insurance carrier, pain level. Creates the appointment in the client's scheduler. Texts the confirmation.
+- **Triages dental emergencies.** Knocked out tooth, severe swelling, bleeding that won't stop → immediate escalation to on-call dentist via Telegram/SMS.
+- **Handles insurance questions intelligently.** Doesn't fake expertise. Hands off to a human for complex verification, books a callback if after hours.
+- **Knows the practice.** Custom prompt per clinic: their hours, their providers, their accepted insurances, their tone.
+- **Never says he's human.** TOS §5.3 compliant — meta-honest, admits he's AI if asked.
+
+Typical call: 90 seconds. Booked appointment in the scheduler by the time the patient hangs up.
+
+### How the agency operates end-to-end
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                     PROSPECT JOURNEY (outbound)                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+    50 dentists      Entity extraction     Personalized
+    cold outreach  → per-practice data   → /for/[slug] page
+    (Smartlead)      (regex, no LLM)       (unique pitch + video)
+                                                   │
+                                                   ▼
+                                         TOS clickwrap gate
+                                         (scroll + 3 acks + SHA-256)
+                                                   │
+                                                   ▼
+                                         Stripe Checkout (live)
+                                         $399 setup + $299/mo
+                                                   │
+                                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                 CLIENT PROVISIONING (automated)                     │
+└─────────────────────────────────────────────────────────────────────┘
+
+    Supabase webhook      vapi-provision        New phone number
+    (Stripe event)     →  edge function      →  assigned in ~10s
+                          clones Nathan
+                          per-client
+                                                   │
+                                                   ▼
+                          Telegram DM to operator with 3 buttons:
+                          🤖 auto-provision  ✓ manual  ⏱ snooze 24h
+                                                   │
+                                                   ▼
+                                         Client goes live
+                                         on their own phone number
+                                                   │
+                                                   ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                   PATIENT CALL FLOW (every call)                    │
+└─────────────────────────────────────────────────────────────────────┘
+
+    Patient calls      Nathan answers         Books / routes /
+    practice line   →  ring 1, natural     →  escalates based on
+                       conversation            intent classification
+                                                   │
+                                                   ▼
+                       Call ends → Vapi webhook fires
+                                                   │
+                                                   ▼
+                       Supabase: writes call record (transcript,
+                       outcome, duration, recording URL, structured
+                       data extracted from the conversation)
+                                                   │
+                                                   ▼
+                       Client dashboard updates: calls answered,
+                       patients booked, revenue recovered metric
+```
+
+### Built solo, wire by wire
+
+- **Landing pages:** Next.js 16 App Router at `/for/[slug]`, 50 personalized pitches from entity-extracted prospect data (regex, not LLM — deterministic and <1ms)
+- **Legal layer:** 7.5k-word Terms of Service + clickwrap gate (scroll-depth verified, 3 checkboxes, SHA-256 hash of accepted version). Red-teamed by 3 parallel Claude legal-advisor agents, graded A−/B+/A−
+- **Payments:** Stripe live-mode Checkout → Supabase webhook → provisioning trigger
+- **Voice layer:** Vapi for orchestration, ElevenLabs for voice, Claude Haiku 4.5 for low-latency turn generation (<500ms first token)
+- **Per-client provisioning:** `vapi-provision` Supabase edge function clones the Nathan template, buys a real phone number in the client's area code, wires their scheduler + insurance list
+- **Operator loop:** every payment → Telegram DM with one-tap approval, snooze, or reject buttons (idempotent, survives restart)
+- **Outreach stack:** Smartlead warmup on dedicated domain `lukita-portfolio.com`, Resend transactional email, pg_cron scheduled drops, daily `infra-health-check` edge function monitoring 9 systems and emailing status at 9am EDT
+- **Deterministic job queue:** custom Postgres-backed job system with `FOR UPDATE SKIP LOCKED` atomic claim, RLS-protected, zero LLM tokens on hot paths — email sends, webhook processing, batch entity extraction all routed through it
+
+Site: **[lukita-portfolio.com](https://lukita-portfolio.com)** · Demo line: **[(904) 541-8192](tel:+19045418192)**
 
 ---
 
@@ -133,7 +214,7 @@ AI optimizer that rewrites resumes to match job descriptions without fabricating
 Frontend        Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 · Framer Motion · shadcn/ui
 Backend         Next.js API · Server Actions · Node.js · Python · Stripe Connect · Supabase Edge Functions
 Database        Postgres (Supabase) · Prisma · pg_cron · Row-Level Security · HNSW vector search
-AI / Agentic    Claude API · Vapi · ElevenLabs · HeyGen · OpenRouter · Ollama · fal.ai · MCP protocol
+Voice / AI      Vapi · Claude API (Sonnet + Haiku) · ElevenLabs · HeyGen · OpenRouter · Ollama · fal.ai · MCP
 Infra           Vercel · Cloudflare · Resend · Smartlead · Telegram bots · GitHub Actions
 Trading         Polymarket CLOB API · orderbook analysis · risk layers · whale detection
 ```
@@ -149,14 +230,15 @@ I use AI agents as force multipliers, not crutches. I pilot a fleet of specializ
 - MVP in days, not months
 - One person owns the entire stack — no coordination overhead
 - I ship what I promise, in production, with security baked in
+- I design for the build *and* for the handoff — every system ships with a runbook
 
-Currently studying AI in college · Open for select freelance and full-time roles.
+Currently studying AI at FSCJ · Open for select freelance and full-time roles.
 
 ---
 
 <div align="center">
 
-**Portfolio → [lukita-portfolio.com](https://lukita-portfolio.com)** · **Call Nathan → (904) 541-8192**
+**Portfolio → [lukita-portfolio.com](https://lukita-portfolio.com)** · **Call Nathan → [(904) 541-8192](tel:+19045418192)**
 
 [![LinkedIn](https://img.shields.io/badge/Karim_Lukita-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/karim-lukita-0282263a9)
 [![Email](https://img.shields.io/badge/lukita@cleopatradelights.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lukita@cleopatradelights.com)
